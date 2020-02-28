@@ -68,16 +68,31 @@
 //  Assembles a string containing 10 rows and 10 columns of asterisks. Think of i being the row and j being the column of an "image"
  
 
-// var res = "\n";
+var res = "\n";
 
-// for (var i = 0; i < 5; i++ ) {
-//     for (var j = 0; j < 5; j++) {
-//         res += "*\t";
-//     }
-//     res += "\n"
-// }
+for (var i = 0; i < 5; i++ ) {
+    for (var j = 0; j < 5; j++) {
+        res += "*\t";
+    }
+    res += "\n"
+}
 
-// console.log(res);
+console.log(res);
+
+
+var res = '\n';
+for ( var i = 0; i < 10; i++){
+    for ( var j = 0; j < 10; j++ ) {
+        res += "*\n";
+    }
+    res += "\n"
+}
+
+console.log(res);
+
+
+
+
 
  ////////////////////////////////////////////////////////////////////////////-FOR IN lOOP
 

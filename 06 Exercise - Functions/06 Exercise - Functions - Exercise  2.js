@@ -37,17 +37,17 @@ console.log(res);
 // Write a function that concatenates a given string n times (default is 1).
 
 
-// function conc(a, stagod) {
-//     var res = "";
-//     for (let i = 0; i < a; i++) {
-//         res += stagod; //res=res+string;
+function conc(a, stagod) {
+    var res = "";
+    for (let i = 0; i < a; i++) {
+        res += stagod; //res=res+string;
 
-//     }
-//     return res;
+    }
+    return res;
 
-// }
+}
 
-// console.log(conc(5, "-AHA-"));
+console.log(conc(5, "-AHA-"));
 
 
 ////////////////////////////////////////////////////////////////////----TASK 4
@@ -71,17 +71,17 @@ console.log(res);
 // The result should be in human numeration form. If there are no occurrences of the character, 
 // the function should return -1.
 
-// function letter(t, s) {
+function letter(t, s) {
 
-//     for (let i = 0; i < t.length; i++) {
-//         if (s === t[i]) {
-//             return i + 1;
-//         }
-//     }
-//     return -1;
-// }
+    for (let i = 0; i < t.length; i++) {
+        if (s === t[i]) {
+            return i + 1;
+        }
+    }
+    return i;
+}
 
-// console.log(letter("HelloWorld", "g"));
+console.log(letter("HelloWorld", "l"));
 
 
 ////////////////////////////////////////////////////////////////////----TASK 6
@@ -89,18 +89,18 @@ console.log(res);
 // in a string. The result should be in human numeration form. If there are no
 //  occurrences of the character, function should return -1.
 
-// function lastletter(t, s) {
-//     var pom = 0;
-//     for (let i = 0; i < t.length; i++) {
-//         if (s === t[i]) {
-//             pom = i + 1
-//         }
+function lastletter(t, s) {
+    var pom = 0;
+    for (let i = 0; i < t.length; i++) {
+        if (s === t[i]) {
+            pom = i + 1
+        }
 
-//     }
-//     return pom
-// }
+    }
+    return pom
+}
 
-// console.log(lastletter("HelloWorld", "l"));
+console.log(lastletter("HelloWorld", "d"));
 ////////////////////////////////////////////////////////////////////----TASK 7
 // Write a function to convert string into an array. Space in a string should 
 // be represented as “null” in new array.
@@ -156,3 +156,25 @@ function replace(text, char) {
     return s;
 }
 console.log(replace("My random string"));
+
+
+
+
+//////////////////////////////////////////////////////////////////----TASK 11
+// Write a function that converts an array of strings into an array of numbers. Filter out all non-numeric values.
+// ["1", "21", undefined, "42", "1e+3", Infinity] -> [1, 21, 42, 1000]
+
+function filter(array){
+
+    var farray = [];
+for( i = 0; i<array.length; i++ ){
+    if ( typeof array [i] === Number){
+        array[i] = farray [i]
+    }
+return farray 
+}
+}
+
+// var a =  ["1", "21", undefined, "42", "1e+3", Infinity]
+
+console.log(filter(["1", "21", undefined, "42", "1e+3", Infinity]))

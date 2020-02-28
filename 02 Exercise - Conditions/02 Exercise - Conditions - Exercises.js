@@ -46,6 +46,43 @@
 // Sample numbers : 0, -1, 4 
 // Output : 4, 0, -1 
 
+var a = 0;
+var b = -1;
+var c = 4;
+
+if ( a > b && b > c ){
+    console.log(a, b, c)
+}
+else if ( a > c && c > b ){
+    console.log( a, c, b);
+    }
+else if ( b > a && a > c ){
+    console.log( b, a, c );
+}
+else if ( b > c && c > a ){
+    console.log( b, c, a );
+}
+else if ( c > b && b > a){
+     console.log( c, b, a);
+}
+else if ( c > a && a > b){
+    console.log( c, a, b);
+}
+
+else {
+    console.log('I give up');
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 ////////////////////////////////////////////////////////////////////////////-TASK 4
 // Write a program to check if the variable is a number and if it’s a number, 
@@ -139,7 +176,7 @@
 // 	Output : -				Output : true				Output : true
 
 
-// var result = "", a = 45, b = 6;
+var result = "", a = 45, b = 6;
 
 // if ( a === 50, b === 50 || a + b === 50 ){
 //     result = "true";
@@ -150,18 +187,23 @@
 
 // console.log(result);
 
+// if (a=== 50  || b=== 50  || a + b === 50 )
+
+
+
+
 ////////////////////////////////////////////////////////////////////////////-TASK 10
 // Write a JavaScript program to check a given integer is within 20 of 100 or 400, 
 // and print range in which number belongs.
 // Sample Input: 13			Sample Input: 34			Sample Input: 256
 // 	Output : -				Output : 20 ⇔ 100			Output : 100 ⇔ 400
 
-// result = "",  a = 120;
+// result = "",  a = 80;
 
-// if ( 20 < a < 100 ){
+// if ( 20 < a && a < 100 ){
 //     result = "20 ⇔ 100";
 // }
-// else if ( 100 < a < 400 )
+// else if ( 100 < a && a < 400 )
 // {
 //     result = "100 ⇔ 400";
 // }
@@ -171,19 +213,11 @@
 // }
 // console.log(result);
 
-////////////////////////////////////////////////////////////////////////////-TASK 10 -- secod way
+////////////////////////////////////////////////////////////////////////////-TASK 10 -- secon      d way
 
-result = "",  a = 1;
+result = "",  a = 150;
 
-if ( a >= 20 && a <=400 )
+if ( a >= 20 && a <= 400 )
 {
     if ( a <= 100 )
-    { result = "20<=>100" }
-    else 
-    { result = "100<=>400"}
-}   
-
-else 
-{ result = "-"}  
-
-console.log(result);
+    { result = "20<=
