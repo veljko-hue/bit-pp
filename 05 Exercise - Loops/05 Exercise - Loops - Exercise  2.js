@@ -71,3 +71,44 @@ for ( var i; i < array.length; i++ ){
 // Write a program that finds the first element larger than minimum and prints out its value. 
 // Input array: [4, 2, 2, -1, 6]
 // Output: 2
+
+
+var arr = [4, 2, 2, -1, 6];
+var min = arr[i];
+var secMin = arr[i]
+
+for(i=0; i<arr.length; i++){
+    if(arr[i]<min){
+        secMin = min;
+        min = arr[i];
+        
+    }else if (arr[i])   
+
+}
+console.log(min);
+
+
+// Write a program that calculates the sum of positive elements in the array.
+// Input array: [3, 11, -5, -3, 2]
+// Output: 16
+
+
+var arr = [3, 11, -5, -3, 2];
+var sum = 0
+for( i = 0; i = arr.length; i++){
+    if(arr[i]>i){
+    sum = sum + arr[i]
+
+    }
+}
+
+console.log(sum);
+
+var arr = [3, 11, -5, -3, 2];
+var sum = 0;
+for (var i = 0; i < arr.length; i++) {
+    if (arr[i] > 0) {
+        sum += arr[i];
+    }
+}
+console.log(sum);
