@@ -25,10 +25,6 @@ var splitAndConvertStr = function(str) {
 
 console.log(splitAndConvertStr('john snow'))
 
-var splitAndConvertStr = function(str) {
-  return str.split(' ')
-}
-console.log(splitAndConvertStr('John Snow'))
 // 5. Write a function to convert a string to its abbreviated form.
 
 // "John Snow" -> 	"John S."
