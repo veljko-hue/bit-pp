@@ -25,10 +25,13 @@ var splitAndConvertStr = function (str) {
 
 console.log(splitAndConvertStr('john snow'))
 
+<<<<<<< HEAD
 var splitAndConvertStr = function (str) {
   return str.split('  ')
 }
 console.log(splitAndConvertStr('John Snow'))
+=======
+>>>>>>> b24fd8c76b6ab40fb4cfe4e9fd94457e087ad887
 // 5. Write a function to convert a string to its abbreviated form.
 
 // "John Snow" -> 	"John S."

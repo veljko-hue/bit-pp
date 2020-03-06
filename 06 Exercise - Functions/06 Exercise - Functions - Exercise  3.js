@@ -213,3 +213,14 @@ console.log(hideEmail(email))
 // Write a program to find the most frequent item of an array.
 
 // [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3]
+
+function mostFrequentItem(array){
+  var item;
+  var maxCount = 0;
+  for(var i = 0; i < array.length; i++){
+    var count = 0;
+    for( var j)
+  }
+}
+
+

@@ -18,18 +18,16 @@ console.log(result)
 // Input: [8, 13, 8, 9, 12, 8, 1, 1, 4, 13]
 // Output: [1, 4, 8, 9, 12, 13]
 
-function delite(array) {
-  var newArray = []
-  for (var i = 0; i < array.length; i++) {
-    if (newArray.indexOf(array[i]) === -1) {
-      newArr.push(arr[i])
-    }
-  }
-
-  return newArray.sort(function(a, b) {
-    return a - b
-  })
+var removeDuplicate = function(arr){
+    newArr=[];
+    for(var i = 0; i< arr.length; i++){
+        if(newArr.indexOf(arr[i])===-1){
+            newArr.[newArr.length]= (arr[i]);
+        }
+    }newArr.sort
 }
+
+console.log(removeDuplicate([8, 13, 8, 9, 12, 8, 1, 1, 4, 13]));
 
 // 3Write a function that checks if a given array has odd number of elements.
 // Input: [1, 2, 9, 2, 1]
@@ -100,7 +98,7 @@ var findWord = function(arr) {
   var b = 'pro'
   var newArr = []
   for (var i = 0; i < arr.length; i++) {
-    if (b === arr[i].slice(0, 3)) {
+    if (b === arr[i].toLowerCase().slice(0, 3)) {
       newArr.push(arr[i])
     }
   }
@@ -112,3 +110,6 @@ console.log(findWord())
 var find = function(arr, w) {
   newarr = []
 }
+
+
+
