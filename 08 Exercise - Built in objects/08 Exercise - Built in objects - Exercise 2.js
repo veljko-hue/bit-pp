@@ -4,7 +4,7 @@
 // Note: Assume punctuation, numbers and symbols are not included in the passed string.
 // “Webmaster” -> “abeemrstw”
 
-var alphabeticalOrder = function(str) {
+var alphabeticalOrder = function (str) {
   return str
     .toLowerCase()
     .split('')
@@ -19,14 +19,14 @@ console.log(alphabeticalOrder('Webmaster'))
 // 4. Write a function to split a string and convert it into an array of words.
 
 // "John Snow" -> [ 'John', 'Snow' ]
-var splitAndConvertStr = function(str) {
+var splitAndConvertStr = function (str) {
   return str.split(' ')
 }
 
 console.log(splitAndConvertStr('john snow'))
 
-var splitAndConvertStr = function(str) {
-  return str.split(' ')
+var splitAndConvertStr = function (str) {
+  return str.split('  ')
 }
 console.log(splitAndConvertStr('John Snow'))
 // 5. Write a function to convert a string to its abbreviated form.
@@ -49,3 +49,8 @@ console.log(splitAndConvertStr('John Snow'))
 // var LOWER = 'abcdefghijklmnopqrstuvwxyz';
 
 // "The Quick Brown Fox" -> "tHE qUICK bROWN fOX"
+
+
+console.log(Number("3"))
+console.log(Number(0xffff))
+
